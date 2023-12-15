@@ -20,7 +20,11 @@ class MainShip extends Ship {
 
         attackAlien(target){ // attackAlien occurs whenever the player attacks the alien. -- attackMain (on the alien class) occurs whenever the alien attacks the player.
             let randomNum = Math.random()
+<<<<<<< HEAD
             if (randomNum <= this.accuracy) { // checks if the player hits the alien 
+=======
+            if (randomNum <= this.accuracy) { // checks if the player hits the alien
+>>>>>>> d0ede12221f7de49834ee89aaa50397df127d9e2
               target.hull -= this.firepower // subtracts the player's firepower from the enemy's health if it hits
                 window.alert(`Attacked ${target.name} for ${this.firepower} damage!`)
             }
@@ -68,7 +72,10 @@ class MainShip extends Ship {
      
          const attackButton = document.getElementById('attack')
          attackButton.addEventListener('click', () => {
+<<<<<<< HEAD
             
+=======
+>>>>>>> d0ede12221f7de49834ee89aaa50397df127d9e2
            // check if any enemy is left (if statement -- not a loop)
            // if so, attack the first one in the array
            // else, end the game with disabling button and popping up YOU WIN! alert.

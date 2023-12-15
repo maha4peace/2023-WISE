@@ -238,7 +238,6 @@ const products = [
   ]
 
 const cheapProducts = products.filter((product) => product["price"] < 10) ;
-<<<<<<< HEAD
 console.log(cheapProducts)
 
 const orderedProdcuts = function() {
@@ -252,6 +251,3 @@ const orderedProdcuts = function() {
 }
  
 console.log(orderedProdcuts()) ; 
-=======
-console.log(cheapProducts)
->>>>>>> d0ede12221f7de49834ee89aaa50397df127d9e2
